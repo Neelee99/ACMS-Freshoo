@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804624232344",
+    "firebase_url": "https://acms-9e108.firebaseio.com",
+    "project_id": "acms-9e108",
+    "storage_bucket": "acms-9e108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804624232344:android:4d4a1e26880dbf254845ed",
+        "android_client_info": {
+          "package_name": "com.example.acms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804624232344-i0a3ke4u5mmkrefsmbapgnn795ama7pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCchJBke2bsfptnAKxuXOLjNTgUDdEdZoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804624232344-i0a3ke4u5mmkrefsmbapgnn795ama7pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
