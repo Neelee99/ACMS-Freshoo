@@ -39,22 +39,8 @@ class DatabaseService {
     });
   }
 
-  Future updateUserData1(String name, String phone, String email, String aadhar, String address,int wallet1) async {
-    return await profileCollection.document(uid).setData({
-      'user_name': name,
-      'user_email': email,
-      'user_phone': phone,
-      'user_aadhar': aadhar,
-      'user_address': address,
-      'user_wallet':wallet1,
-    });
-  }
-
-  Future updateUserWallet(int w) async {
-    return await profileCollection.document(uid).updateData({
-      'user_wallet':w,
-    });
-  }
+  
+  
 
 
 
@@ -81,22 +67,6 @@ Stream<DocumentSnapshot> getProfileData(String uid){
     return profileCollection.document(uid).snapshots();
 }
 
-Future updateUserCardData(
-      String cardno, String exp, String cvv, String name) async {
-    return await profileCollection.document(uid).collection('cards').document().setData({
-      'card_no': cardno,
-      'card_exp': exp,
-      'card_cvv': cvv,
-      'card_name': name,
-    });
-  }
-Future updateUserAccountData(
-      String accNo, String ifsc) async {
-    return await profileCollection.document(uid).collection('Account').document().setData({
-      'account_no': accNo,
-      'account_ifsc':ifsc
-    });
-  }
 
 
 
